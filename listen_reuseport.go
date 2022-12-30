@@ -1,6 +1,7 @@
-//go:build go1.11 && (aix || darwin || dragonfly || freebsd || linux || netbsd || openbsd)
+//go:build go1.11 && (aix || darwin || dragonfly || freebsd || linux || netbsd || openbsd) && !android
 // +build go1.11
 // +build aix darwin dragonfly freebsd linux netbsd openbsd
+// +build !android
 
 package dns
 
